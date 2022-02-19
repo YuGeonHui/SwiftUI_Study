@@ -1,3 +1,7 @@
+
+
+
+
 //
 //  ContentView.swift
 //  Hello_SwiftUI
@@ -10,9 +14,30 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        HStack {
-            Text("Hello, world!")
-            Text("Hello, world!")
+        VStack(alignment: .center) {
+            
+            Image("costa-rica")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                // .clipShape(Circle())
+                .cornerRadius(50)
+                .padding(.all)
+            
+            Text("First Line")
+                .font(.largeTitle)
+                .foregroundColor(.green)
+            
+//            Spacer()
+            
+            Text("Scond Line")
+                .font(.title)
+                .foregroundColor(.orange)
+            
+            HStack {
+                Text("Left Side")
+                Text("Right Side")
+                    .padding(.all)
+            }
         }
     }
 }
