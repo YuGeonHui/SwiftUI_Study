@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65267EA27C26CD10030B13B /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65267E927C26CD10030B13B /* Grid.swift */; };
+		B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65267EC27C26F1A0030B13B /* Array+Extension.swift */; };
 		B69E5A3A27C0CEF100D3F026 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69E5A3927C0CEF100D3F026 /* Hike.swift */; };
 		B69E5A3D27C0D26700D3F026 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69E5A3C27C0D26700D3F026 /* MainView.swift */; };
 		B6A07F3327C2634300DA554D /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A07F3227C2634300DA554D /* HikeDetail.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B65267E927C26CD10030B13B /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		B65267EC27C26F1A0030B13B /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		B69E5A3927C0CEF100D3F026 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		B69E5A3C27C0D26700D3F026 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B6A07F3227C2634300DA554D /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
@@ -77,9 +81,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B65267E627C26C800030B13B /* GridExample(Legacy) */ = {
+			isa = PBXGroup;
+			children = (
+				B65267E827C26CB70030B13B /* Views */,
+				B65267E727C26CB00030B13B /* Model */,
+			);
+			path = "GridExample(Legacy)";
+			sourceTree = "<group>";
+		};
+		B65267E727C26CB00030B13B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B65267E827C26CB70030B13B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B65267E927C26CD10030B13B /* Grid.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B65267EB27C26F060030B13B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B65267EC27C26F1A0030B13B /* Array+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B69E59F727C0C9D500D3F026 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
+				B69E5A3B27C0D13900D3F026 /* Views */,
 				B69E5A3827C0CEDA00D3F026 /* Model */,
 			);
 			path = Hiking;
@@ -95,19 +132,18 @@
 		B69E5A3827C0CEDA00D3F026 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B69E5A3B27C0D13900D3F026 /* HikeView */,
 				B69E5A3927C0CEF100D3F026 /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B69E5A3B27C0D13900D3F026 /* HikeView */ = {
+		B69E5A3B27C0D13900D3F026 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				B69E5A3C27C0D26700D3F026 /* MainView.swift */,
 				B6A07F3227C2634300DA554D /* HikeDetail.swift */,
 			);
-			path = HikeView;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B6BB47FD27BF521D003D96F9 = {
@@ -133,11 +169,13 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B69E59F727C0C9D500D3F026 /* Hiking */,
+				B65267E627C26C800030B13B /* GridExample(Legacy) */,
 				B69E59F827C0C9DF00D3F026 /* Basic */,
 				B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */,
 				B6BB480B27BF521D003D96F9 /* ContentView.swift */,
-				B69E59F727C0C9D500D3F026 /* Hiking */,
 				B6BB480D27BF521E003D96F9 /* Assets.xcassets */,
+				B65267EB27C26F060030B13B /* Extension */,
 				B6BB480F27BF521E003D96F9 /* Preview Content */,
 			);
 			path = Hello_SwiftUI;
@@ -302,7 +340,9 @@
 				B69E5A3D27C0D26700D3F026 /* MainView.swift in Sources */,
 				B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */,
 				B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */,
+				B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */,
 				B6A07F3327C2634300DA554D /* HikeDetail.swift in Sources */,
+				B65267EA27C26CD10030B13B /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
