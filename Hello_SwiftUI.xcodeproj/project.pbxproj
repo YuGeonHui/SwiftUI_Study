@@ -15,6 +15,8 @@
 		B6AB93D427C3C8EF0066A607 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB93D327C3C8EF0066A607 /* Dish.swift */; };
 		B6AB93D627C3CA330066A607 /* DishMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB93D527C3CA330066A607 /* DishMainView.swift */; };
 		B6AB93D927C3D1980066A607 /* BindingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AB93D827C3D1980066A607 /* BindingMainView.swift */; };
+		B6ABD02527C511330016F28A /* BindingExampl2MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD02427C511330016F28A /* BindingExampl2MainView.swift */; };
+		B6ABD02727C5116C0016F28A /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD02627C5116C0016F28A /* Episode.swift */; };
 		B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */; };
 		B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB480B27BF521D003D96F9 /* ContentView.swift */; };
 		B6BB480E27BF521E003D96F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BB480D27BF521E003D96F9 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		B6AB93D327C3C8EF0066A607 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		B6AB93D527C3CA330066A607 /* DishMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishMainView.swift; sourceTree = "<group>"; };
 		B6AB93D827C3D1980066A607 /* BindingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingMainView.swift; sourceTree = "<group>"; };
+		B6ABD02427C511330016F28A /* BindingExampl2MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExampl2MainView.swift; sourceTree = "<group>"; };
+		B6ABD02627C5116C0016F28A /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		B6BB480627BF521D003D96F9 /* Hello_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B6BB480B27BF521D003D96F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -177,6 +181,23 @@
 			name = BindingExample;
 			sourceTree = "<group>";
 		};
+		B6ABD02227C5110A0016F28A /* BindingExample2 */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD02327C511140016F28A /* Model */,
+				B6ABD02427C511330016F28A /* BindingExampl2MainView.swift */,
+			);
+			path = BindingExample2;
+			sourceTree = "<group>";
+		};
+		B6ABD02327C511140016F28A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6ABD02627C5116C0016F28A /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B6BB47FD27BF521D003D96F9 = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +221,7 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B6ABD02227C5110A0016F28A /* BindingExample2 */,
 				B6AB93D727C3D17E0066A607 /* BindingExample */,
 				B6AB93D127C3C8CF0066A607 /* StateExample */,
 				B69E59F727C0C9D500D3F026 /* Hiking */,
@@ -370,10 +392,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B69E5A3A27C0CEF100D3F026 /* Hike.swift in Sources */,
+				B6ABD02727C5116C0016F28A /* Episode.swift in Sources */,
 				B6AB93D927C3D1980066A607 /* BindingMainView.swift in Sources */,
 				B6AB93D627C3CA330066A607 /* DishMainView.swift in Sources */,
 				B69E5A3D27C0D26700D3F026 /* MainView.swift in Sources */,
 				B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */,
+				B6ABD02527C511330016F28A /* BindingExampl2MainView.swift in Sources */,
 				B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */,
 				B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */,
 				B6AB93D427C3C8EF0066A607 /* Dish.swift in Sources */,
