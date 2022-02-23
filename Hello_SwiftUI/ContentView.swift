@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        BindingMainView()
+        WeatherMainView()
 //        
 //        VStack(alignment: .center) {
 //            
