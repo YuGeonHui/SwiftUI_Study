@@ -42,6 +42,7 @@
 		B6F1DCC527CA08A400BC58EB /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */; };
 		B6F1DCC727CA09C800BC58EB /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC627CA09C800BC58EB /* CoffeeViewModel.swift */; };
 		B6F1DCC927CA7F7F00BC58EB /* AddCoffeeOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC827CA7F7F00BC58EB /* AddCoffeeOrderView.swift */; };
+		B6F1DCCB27CA871C00BC58EB /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCCA27CA871C00BC58EB /* OrderTotalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
 		B6F1DCC627CA09C800BC58EB /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 		B6F1DCC827CA7F7F00BC58EB /* AddCoffeeOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderView.swift; sourceTree = "<group>"; };
+		B6F1DCCA27CA871C00BC58EB /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -401,6 +403,7 @@
 				B62A9EAB27C7B0A000A583FD /* CoffeeOrderingAppMainView.swift */,
 				B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */,
 				B6F1DCC827CA7F7F00BC58EB /* AddCoffeeOrderView.swift */,
+				B6F1DCCA27CA871C00BC58EB /* OrderTotalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				B6ABD02F27C515C30016F28A /* ObservableObjectMainView.swift in Sources */,
 				B6ABD03127C515DA0016F28A /* UserSettings.swift in Sources */,
 				B62A9EB027C7BA2700A583FD /* Order.swift in Sources */,
+				B6F1DCCB27CA871C00BC58EB /* OrderTotalView.swift in Sources */,
 				B6A07F3327C2634300DA554D /* HikeDetail.swift in Sources */,
 				B65267EA27C26CD10030B13B /* Grid.swift in Sources */,
 			);
