@@ -38,6 +38,9 @@
 		B6BB482527BF521E003D96F9 /* Hello_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */; };
 		B6BB482727BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */; };
 		B6F1DCC127C9FE9F00BC58EB /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */; };
+		B6F1DCC327CA04A800BC58EB /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC227CA04A800BC58EB /* CreateOrderResponse.swift */; };
+		B6F1DCC527CA08A400BC58EB /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */; };
+		B6F1DCC727CA09C800BC58EB /* CoffeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC627CA09C800BC58EB /* CoffeeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,9 @@
 		B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		B6F1DCC227CA04A800BC58EB /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
+		B6F1DCC627CA09C800BC58EB /* CoffeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,7 @@
 			children = (
 				B62A9EAD27C7B0BB00A583FD /* Coffee.swift */,
 				B62A9EAF27C7BA2700A583FD /* Order.swift */,
+				B6F1DCC227CA04A800BC58EB /* CreateOrderResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				B62A9EB527C7BDC500A583FD /* OrderListViewModel.swift */,
+				B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */,
+				B6F1DCC627CA09C800BC58EB /* CoffeeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -534,11 +543,14 @@
 				B62630A727C6702E005D9F12 /* WeatherViewModel.swift in Sources */,
 				B6AB93D927C3D1980066A607 /* BindingMainView.swift in Sources */,
 				B6AB93D627C3CA330066A607 /* DishMainView.swift in Sources */,
+				B6F1DCC327CA04A800BC58EB /* CreateOrderResponse.swift in Sources */,
 				B62A9EB627C7BDC500A583FD /* OrderListViewModel.swift in Sources */,
+				B6F1DCC727CA09C800BC58EB /* CoffeeViewModel.swift in Sources */,
 				B69E5A3D27C0D26700D3F026 /* MainView.swift in Sources */,
 				B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */,
 				B6ABD02527C511330016F28A /* BindingExampl2MainView.swift in Sources */,
 				B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */,
+				B6F1DCC527CA08A400BC58EB /* AddCoffeeOrderViewModel.swift in Sources */,
 				B62630A427C66DB4005D9F12 /* WeatherService.swift in Sources */,
 				B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */,
 				B626309E27C66C77005D9F12 /* WeatherMainView.swift in Sources */,
