@@ -10,7 +10,7 @@ import Foundation
 struct Order: Codable {
     
     let name: String
-    let size: Double
+    let size: String
     let coffeeName: String
     let total: Double
     
