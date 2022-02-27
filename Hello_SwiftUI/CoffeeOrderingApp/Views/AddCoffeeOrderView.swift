@@ -10,6 +10,7 @@ import Combine
 
 struct AddCoffeeOrderView: View {
     
+    @Binding var isPresent: Bool
     @ObservedObject private var addCoffeeOrderVM = AddCoffeeOrderViewModel()
     
     var body: some View {
@@ -44,6 +45,7 @@ struct AddCoffeeOrderView: View {
                 HStack {
                     Button("Place Order") {
                         self.addCoffeeOrderVM.placeOrder()
+                        self.isPresent = false
                     }
                 }
                 .padding(EdgeInsets(top: 12, leading: 100, bottom: 12, trailing: 100))
@@ -85,6 +87,6 @@ struct CoffeeCellView: View {
 
 struct AddCoffeeOrderView_Previews: PreviewProvider {
     static var previews: some View {
-        AddCoffeeOrderView()
+        AddCoffeeOrderView(isPresent: .constant(false))
     }
 }

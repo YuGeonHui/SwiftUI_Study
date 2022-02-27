@@ -3,8 +3,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        AddCoffeeOrderView()
-//        
+        CoffeeOrderingAppMainView()
+        //
 //        VStack(alignment: .center) {
 //            
 //            Image("costa-rica")
