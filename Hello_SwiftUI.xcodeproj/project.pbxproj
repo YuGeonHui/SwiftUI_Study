@@ -16,6 +16,7 @@
 		B62A9EB027C7BA2700A583FD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A9EAF27C7BA2700A583FD /* Order.swift */; };
 		B62A9EB327C7BAF400A583FD /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A9EB227C7BAF400A583FD /* WebService.swift */; };
 		B62A9EB627C7BDC500A583FD /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A9EB527C7BDC500A583FD /* OrderListViewModel.swift */; };
+		B62F4F1127CE50E900B40146 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62F4F1027CE50E900B40146 /* DishCell.swift */; };
 		B65267EA27C26CD10030B13B /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65267E927C26CD10030B13B /* Grid.swift */; };
 		B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65267EC27C26F1A0030B13B /* Array+Extension.swift */; };
 		B69E5A3A27C0CEF100D3F026 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69E5A3927C0CEF100D3F026 /* Hike.swift */; };
@@ -73,6 +74,7 @@
 		B62A9EAF27C7BA2700A583FD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		B62A9EB227C7BAF400A583FD /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		B62A9EB527C7BDC500A583FD /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		B62F4F1027CE50E900B40146 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
 		B65267E927C26CD10030B13B /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		B65267EC27C26F1A0030B13B /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		B69E5A3927C0CEF100D3F026 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
@@ -202,6 +204,14 @@
 				B6F1DCC627CA09C800BC58EB /* CoffeeViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B62F4F0F27CE50C500B40146 /* DishExample */ = {
+			isa = PBXGroup;
+			children = (
+				B62F4F1027CE50E900B40146 /* DishCell.swift */,
+			);
+			path = DishExample;
 			sourceTree = "<group>";
 		};
 		B65267E627C26C800030B13B /* GridExample(Legacy) */ = {
@@ -352,6 +362,7 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B62F4F0F27CE50C500B40146 /* DishExample */,
 				B62630A827C674DE005D9F12 /* Hello-SwiftUI-Info.plist */,
 				B62A9EA927C7B06200A583FD /* CoffeeOrderingApp */,
 				B626309C27C66C65005D9F12 /* WeatherExample */,
@@ -555,6 +566,7 @@
 				B6F1DCC727CA09C800BC58EB /* CoffeeViewModel.swift in Sources */,
 				B69E5A3D27C0D26700D3F026 /* MainView.swift in Sources */,
 				B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */,
+				B62F4F1127CE50E900B40146 /* DishCell.swift in Sources */,
 				B6ABD02527C511330016F28A /* BindingExampl2MainView.swift in Sources */,
 				B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */,
 				B6F1DCC527CA08A400BC58EB /* AddCoffeeOrderViewModel.swift in Sources */,
