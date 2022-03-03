@@ -33,6 +33,9 @@
 		B6ABD03127C515DA0016F28A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ABD03027C515DA0016F28A /* UserSettings.swift */; };
 		B6ADCD8327CFA81F00D58506 /* DishListMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8227CFA81F00D58506 /* DishListMainView.swift */; };
 		B6ADCD8827CFABD900D58506 /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8727CFABD900D58506 /* DishModel.swift */; };
+		B6ADCD8B27D0E16200D58506 /* GraphicMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8A27D0E16200D58506 /* GraphicMainView.swift */; };
+		B6ADCD8D27D0E1F700D58506 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8C27D0E1F700D58506 /* BarGraph.swift */; };
+		B6ADCD9027D0E2EF00D58506 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8F27D0E2EF00D58506 /* Report.swift */; };
 		B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */; };
 		B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB480B27BF521D003D96F9 /* ContentView.swift */; };
 		B6BB480E27BF521E003D96F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BB480D27BF521E003D96F9 /* Assets.xcassets */; };
@@ -93,6 +96,9 @@
 		B6ABD03027C515DA0016F28A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		B6ADCD8227CFA81F00D58506 /* DishListMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishListMainView.swift; sourceTree = "<group>"; };
 		B6ADCD8727CFABD900D58506 /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		B6ADCD8A27D0E16200D58506 /* GraphicMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicMainView.swift; sourceTree = "<group>"; };
+		B6ADCD8C27D0E1F700D58506 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		B6ADCD8F27D0E2EF00D58506 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 		B6BB480627BF521D003D96F9 /* Hello_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B6BB480B27BF521D003D96F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -353,6 +359,24 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		B6ADCD8927D0E13E00D58506 /* GraphicExample */ = {
+			isa = PBXGroup;
+			children = (
+				B6ADCD8E27D0E2E300D58506 /* Models */,
+				B6ADCD8A27D0E16200D58506 /* GraphicMainView.swift */,
+				B6ADCD8C27D0E1F700D58506 /* BarGraph.swift */,
+			);
+			path = GraphicExample;
+			sourceTree = "<group>";
+		};
+		B6ADCD8E27D0E2E300D58506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6ADCD8F27D0E2EF00D58506 /* Report.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		B6BB47FD27BF521D003D96F9 = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +400,7 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B6ADCD8927D0E13E00D58506 /* GraphicExample */,
 				B62F4F0F27CE50C500B40146 /* DishExample */,
 				B62630A827C674DE005D9F12 /* Hello-SwiftUI-Info.plist */,
 				B62A9EA927C7B06200A583FD /* CoffeeOrderingApp */,
@@ -575,6 +600,7 @@
 				B62630A127C66CDE005D9F12 /* Weather.swift in Sources */,
 				B62630A727C6702E005D9F12 /* WeatherViewModel.swift in Sources */,
 				B6F1DCC927CA7F7F00BC58EB /* AddCoffeeOrderView.swift in Sources */,
+				B6ADCD8D27D0E1F700D58506 /* BarGraph.swift in Sources */,
 				B6AB93D927C3D1980066A607 /* BindingMainView.swift in Sources */,
 				B6AB93D627C3CA330066A607 /* DishMainView.swift in Sources */,
 				B6F1DCC327CA04A800BC58EB /* CreateOrderResponse.swift in Sources */,
@@ -584,10 +610,12 @@
 				B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */,
 				B62F4F1127CE50E900B40146 /* DishCell.swift in Sources */,
 				B6ABD02527C511330016F28A /* BindingExampl2MainView.swift in Sources */,
+				B6ADCD9027D0E2EF00D58506 /* Report.swift in Sources */,
 				B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */,
 				B6F1DCC527CA08A400BC58EB /* AddCoffeeOrderViewModel.swift in Sources */,
 				B62630A427C66DB4005D9F12 /* WeatherService.swift in Sources */,
 				B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */,
+				B6ADCD8B27D0E16200D58506 /* GraphicMainView.swift in Sources */,
 				B626309E27C66C77005D9F12 /* WeatherMainView.swift in Sources */,
 				B6AB93D427C3C8EF0066A607 /* Dish.swift in Sources */,
 				B62A9EB327C7BAF400A583FD /* WebService.swift in Sources */,
