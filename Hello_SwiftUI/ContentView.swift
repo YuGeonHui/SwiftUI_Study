@@ -3,7 +3,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        CoffeeOrderingAppMainView()
+        GestureMainView()
+
         //
 //        VStack(alignment: .center) {
 //            
