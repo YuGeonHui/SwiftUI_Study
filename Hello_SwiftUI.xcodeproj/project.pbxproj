@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60DF9D627D4F9A2006627A4 /* NightShiftFormMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60DF9D527D4F9A2006627A4 /* NightShiftFormMainView.swift */; };
+		B60DF9D927D50056006627A4 /* NavigationFromMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60DF9D827D50056006627A4 /* NavigationFromMainView.swift */; };
 		B626309E27C66C77005D9F12 /* WeatherMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B626309D27C66C77005D9F12 /* WeatherMainView.swift */; };
 		B62630A127C66CDE005D9F12 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62630A027C66CDE005D9F12 /* Weather.swift */; };
 		B62630A427C66DB4005D9F12 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62630A327C66DB4005D9F12 /* WeatherService.swift */; };
@@ -71,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B60DF9D527D4F9A2006627A4 /* NightShiftFormMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightShiftFormMainView.swift; sourceTree = "<group>"; };
+		B60DF9D827D50056006627A4 /* NavigationFromMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationFromMainView.swift; sourceTree = "<group>"; };
 		B626309D27C66C77005D9F12 /* WeatherMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherMainView.swift; sourceTree = "<group>"; };
 		B62630A027C66CDE005D9F12 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		B62630A327C66DB4005D9F12 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
@@ -146,6 +150,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B60DF9D427D4F97F006627A4 /* NightShiftFormExample */ = {
+			isa = PBXGroup;
+			children = (
+				B60DF9D527D4F9A2006627A4 /* NightShiftFormMainView.swift */,
+			);
+			path = NightShiftFormExample;
+			sourceTree = "<group>";
+		};
+		B60DF9D727D5003E006627A4 /* NavigationFromExample */ = {
+			isa = PBXGroup;
+			children = (
+				B60DF9D827D50056006627A4 /* NavigationFromMainView.swift */,
+			);
+			path = NavigationFromExample;
+			sourceTree = "<group>";
+		};
 		B626309C27C66C65005D9F12 /* WeatherExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +433,8 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B60DF9D727D5003E006627A4 /* NavigationFromExample */,
+				B60DF9D427D4F97F006627A4 /* NightShiftFormExample */,
 				B644690F27D2756E009E4DF1 /* GestureExample */,
 				B6ADCD8927D0E13E00D58506 /* GraphicExample */,
 				B62F4F0F27CE50C500B40146 /* DishExample */,
@@ -605,12 +627,14 @@
 				B6ADCD8327CFA81F00D58506 /* DishListMainView.swift in Sources */,
 				B69E5A3A27C0CEF100D3F026 /* Hike.swift in Sources */,
 				B6F1DCC127C9FE9F00BC58EB /* OrderListView.swift in Sources */,
+				B60DF9D627D4F9A2006627A4 /* NightShiftFormMainView.swift in Sources */,
 				B62A9EAE27C7B0BB00A583FD /* Coffee.swift in Sources */,
 				B644691327D2759F009E4DF1 /* Card.swift in Sources */,
 				B62A9EAC27C7B0A000A583FD /* CoffeeOrderingAppMainView.swift in Sources */,
 				B644691127D27580009E4DF1 /* GestureMainView.swift in Sources */,
 				B6ABD02727C5116C0016F28A /* Episode.swift in Sources */,
 				B6ABD02A27C513F30016F28A /* Understanding_ObservableMainView.swift in Sources */,
+				B60DF9D927D50056006627A4 /* NavigationFromMainView.swift in Sources */,
 				B6ADCD8827CFABD900D58506 /* DishModel.swift in Sources */,
 				B6ABD02C27C514460016F28A /* FancyTimer.swift in Sources */,
 				B62630A127C66CDE005D9F12 /* Weather.swift in Sources */,
