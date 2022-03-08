@@ -47,6 +47,8 @@
 		B6BB481B27BF521E003D96F9 /* Hello_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB481A27BF521E003D96F9 /* Hello_SwiftUITests.swift */; };
 		B6BB482527BF521E003D96F9 /* Hello_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */; };
 		B6BB482727BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */; };
+		B6DDD29C27D790160091A2AD /* FlagOfTheWorldMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */; };
+		B6DDD29E27D7966F0091A2AD /* FlagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD29D27D7966F0091A2AD /* FlagDetailView.swift */; };
 		B6F1DCC127C9FE9F00BC58EB /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */; };
 		B6F1DCC327CA04A800BC58EB /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC227CA04A800BC58EB /* CreateOrderResponse.swift */; };
 		B6F1DCC527CA08A400BC58EB /* AddCoffeeOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */; };
@@ -117,6 +119,8 @@
 		B6BB482027BF521E003D96F9 /* Hello_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagOfTheWorldMainView.swift; sourceTree = "<group>"; };
+		B6DDD29D27D7966F0091A2AD /* FlagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagDetailView.swift; sourceTree = "<group>"; };
 		B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 		B6F1DCC227CA04A800BC58EB /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
 		B6F1DCC427CA08A400BC58EB /* AddCoffeeOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeOrderViewModel.swift; sourceTree = "<group>"; };
@@ -433,6 +437,7 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B6DDD29A27D78FFB0091A2AD /* FlagOfTheWorldExample */,
 				B60DF9D727D5003E006627A4 /* NavigationFromExample */,
 				B60DF9D427D4F97F006627A4 /* NightShiftFormExample */,
 				B644690F27D2756E009E4DF1 /* GestureExample */,
@@ -481,6 +486,15 @@
 				B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = Hello_SwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		B6DDD29A27D78FFB0091A2AD /* FlagOfTheWorldExample */ = {
+			isa = PBXGroup;
+			children = (
+				B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */,
+				B6DDD29D27D7966F0091A2AD /* FlagDetailView.swift */,
+			);
+			path = FlagOfTheWorldExample;
 			sourceTree = "<group>";
 		};
 		B6F1DCBF27C9FE7800BC58EB /* Views */ = {
@@ -662,9 +676,11 @@
 				B6ABD02F27C515C30016F28A /* ObservableObjectMainView.swift in Sources */,
 				B6ABD03127C515DA0016F28A /* UserSettings.swift in Sources */,
 				B62A9EB027C7BA2700A583FD /* Order.swift in Sources */,
+				B6DDD29E27D7966F0091A2AD /* FlagDetailView.swift in Sources */,
 				B6F1DCCB27CA871C00BC58EB /* OrderTotalView.swift in Sources */,
 				B6A07F3327C2634300DA554D /* HikeDetail.swift in Sources */,
 				B65267EA27C26CD10030B13B /* Grid.swift in Sources */,
+				B6DDD29C27D790160091A2AD /* FlagOfTheWorldMainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
