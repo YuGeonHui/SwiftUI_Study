@@ -11,12 +11,16 @@ struct FlagOfTheWorldMainView: View {
     
     @State private var showModal: Bool = false
     @State private var selectedFlag: String = ""
+    @State private var country: String = ""
     
-    let flags = ["🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈"]
+    let flags = ["🤣", "😨", "😠", "🪛", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈", "🏳️‍🌈"]
     
     var body: some View {
         
         List {
+            
+            Text(self.country)
+            
             ForEach(0..<self.flags.count) { index in
                 
                 HStack {
@@ -30,8 +34,7 @@ struct FlagOfTheWorldMainView: View {
             }
             
         }.sheet(isPresented: self.$showModal) {
-            Text(self.selectedFlag)
-                .font(.custom("Arial", size: 200))
+            FlagDetailView(flag: self.selectedFlag, country: self.$country, showModal: self.$showModal)
         }
     }
 }
