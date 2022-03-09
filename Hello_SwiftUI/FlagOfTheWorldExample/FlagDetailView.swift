@@ -9,28 +9,25 @@ import SwiftUI
 
 struct FlagDetailView: View {
     
-    var flag: String = ""
-    
-    @Binding var country: String
-    @Binding var showModal: Bool
+    @Binding var flagVM: FlagViewModel
     
     var body: some View {
         
-        Text(self.flag)
+        Text(self.flagVM.flag)
             .font(.custom("Arial", size: 200))
         
-        TextField("Enter some text", text: $country)
+        TextField("Enter some text", text: self.$flagVM.country)
             .padding()
             .fixedSize()
         
         Button("Submit") {
-            self.showModal.toggle()
+            self.flagVM.showModal.toggle()
         }
     }
 }
 
 struct FlagDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FlagDetailView(country: .constant("USA"), showModal: .constant(false))
+        FlagDetailView(flagVM: .constant(FlagViewModel()))
     }
 }

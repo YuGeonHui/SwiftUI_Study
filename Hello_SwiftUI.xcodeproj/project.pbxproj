@@ -47,6 +47,7 @@
 		B6BB481B27BF521E003D96F9 /* Hello_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB481A27BF521E003D96F9 /* Hello_SwiftUITests.swift */; };
 		B6BB482527BF521E003D96F9 /* Hello_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */; };
 		B6BB482727BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */; };
+		B6D149DF27D8F2F300F8DADE /* FlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D149DE27D8F2F300F8DADE /* FlagViewModel.swift */; };
 		B6DDD29C27D790160091A2AD /* FlagOfTheWorldMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */; };
 		B6DDD29E27D7966F0091A2AD /* FlagDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD29D27D7966F0091A2AD /* FlagDetailView.swift */; };
 		B6F1DCC127C9FE9F00BC58EB /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */; };
@@ -119,6 +120,7 @@
 		B6BB482027BF521E003D96F9 /* Hello_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6D149DE27D8F2F300F8DADE /* FlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewModel.swift; sourceTree = "<group>"; };
 		B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagOfTheWorldMainView.swift; sourceTree = "<group>"; };
 		B6DDD29D27D7966F0091A2AD /* FlagDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagDetailView.swift; sourceTree = "<group>"; };
 		B6F1DCC027C9FE9F00BC58EB /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
@@ -493,6 +495,7 @@
 			children = (
 				B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */,
 				B6DDD29D27D7966F0091A2AD /* FlagDetailView.swift */,
+				B6D149DE27D8F2F300F8DADE /* FlagViewModel.swift */,
 			);
 			path = FlagOfTheWorldExample;
 			sourceTree = "<group>";
@@ -674,6 +677,7 @@
 				B6AB93D427C3C8EF0066A607 /* Dish.swift in Sources */,
 				B62A9EB327C7BAF400A583FD /* WebService.swift in Sources */,
 				B6ABD02F27C515C30016F28A /* ObservableObjectMainView.swift in Sources */,
+				B6D149DF27D8F2F300F8DADE /* FlagViewModel.swift in Sources */,
 				B6ABD03127C515DA0016F28A /* UserSettings.swift in Sources */,
 				B62A9EB027C7BA2700A583FD /* Order.swift in Sources */,
 				B6DDD29E27D7966F0091A2AD /* FlagDetailView.swift in Sources */,
