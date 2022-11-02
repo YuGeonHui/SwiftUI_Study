@@ -21,8 +21,10 @@
 		B62F4F1127CE50E900B40146 /* DishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62F4F1027CE50E900B40146 /* DishCell.swift */; };
 		B644691127D27580009E4DF1 /* GestureMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B644691027D27580009E4DF1 /* GestureMainView.swift */; };
 		B644691327D2759F009E4DF1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B644691227D2759F009E4DF1 /* Card.swift */; };
+		B64558D0291238BA006F69E9 /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64558CF291238BA006F69E9 /* StockView.swift */; };
 		B65267EA27C26CD10030B13B /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65267E927C26CD10030B13B /* Grid.swift */; };
 		B65267ED27C26F1A0030B13B /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65267EC27C26F1A0030B13B /* Array+Extension.swift */; };
+		B676B0FA29125F6A00B9C089 /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B676B0F929125F6A00B9C089 /* StockModel.swift */; };
 		B69E5A3A27C0CEF100D3F026 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69E5A3927C0CEF100D3F026 /* Hike.swift */; };
 		B69E5A3D27C0D26700D3F026 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69E5A3C27C0D26700D3F026 /* MainView.swift */; };
 		B6A07F3327C2634300DA554D /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A07F3227C2634300DA554D /* HikeDetail.swift */; };
@@ -91,8 +93,10 @@
 		B62F4F1027CE50E900B40146 /* DishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCell.swift; sourceTree = "<group>"; };
 		B644691027D27580009E4DF1 /* GestureMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMainView.swift; sourceTree = "<group>"; };
 		B644691227D2759F009E4DF1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B64558CF291238BA006F69E9 /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
 		B65267E927C26CD10030B13B /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		B65267EC27C26F1A0030B13B /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		B676B0F929125F6A00B9C089 /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
 		B69E5A3927C0CEF100D3F026 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		B69E5A3C27C0D26700D3F026 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B6A07F3227C2634300DA554D /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
@@ -263,6 +267,15 @@
 				B644691227D2759F009E4DF1 /* Card.swift */,
 			);
 			path = GestureExample;
+			sourceTree = "<group>";
+		};
+		B64558CE291238AC006F69E9 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				B64558CF291238BA006F69E9 /* StockView.swift */,
+				B676B0F929125F6A00B9C089 /* StockModel.swift */,
+			);
+			path = Stock;
 			sourceTree = "<group>";
 		};
 		B65267E627C26C800030B13B /* GridExample(Legacy) */ = {
@@ -439,6 +452,7 @@
 		B6BB480827BF521D003D96F9 /* Hello_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B64558CE291238AC006F69E9 /* Stock */,
 				B6DDD29A27D78FFB0091A2AD /* FlagOfTheWorldExample */,
 				B60DF9D727D5003E006627A4 /* NavigationFromExample */,
 				B60DF9D427D4F97F006627A4 /* NightShiftFormExample */,
@@ -641,6 +655,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64558D0291238BA006F69E9 /* StockView.swift in Sources */,
 				B6ADCD8327CFA81F00D58506 /* DishListMainView.swift in Sources */,
 				B69E5A3A27C0CEF100D3F026 /* Hike.swift in Sources */,
 				B6F1DCC127C9FE9F00BC58EB /* OrderListView.swift in Sources */,
@@ -654,6 +669,7 @@
 				B60DF9D927D50056006627A4 /* NavigationFromMainView.swift in Sources */,
 				B6ADCD8827CFABD900D58506 /* DishModel.swift in Sources */,
 				B6ABD02C27C514460016F28A /* FancyTimer.swift in Sources */,
+				B676B0FA29125F6A00B9C089 /* StockModel.swift in Sources */,
 				B62630A127C66CDE005D9F12 /* Weather.swift in Sources */,
 				B62630A727C6702E005D9F12 /* WeatherViewModel.swift in Sources */,
 				B6F1DCC927CA7F7F00BC58EB /* AddCoffeeOrderView.swift in Sources */,
