@@ -42,6 +42,7 @@
 		B6ADCD8B27D0E16200D58506 /* GraphicMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8A27D0E16200D58506 /* GraphicMainView.swift */; };
 		B6ADCD8D27D0E1F700D58506 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8C27D0E1F700D58506 /* BarGraph.swift */; };
 		B6ADCD9027D0E2EF00D58506 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ADCD8F27D0E2EF00D58506 /* Report.swift */; };
+		B6B6D8A52912650E00861C8D /* StockRankRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B6D8A42912650E00861C8D /* StockRankRow.swift */; };
 		B6BB480A27BF521D003D96F9 /* Hello_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */; };
 		B6BB480C27BF521D003D96F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB480B27BF521D003D96F9 /* ContentView.swift */; };
 		B6BB480E27BF521E003D96F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6BB480D27BF521E003D96F9 /* Assets.xcassets */; };
@@ -114,6 +115,7 @@
 		B6ADCD8A27D0E16200D58506 /* GraphicMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicMainView.swift; sourceTree = "<group>"; };
 		B6ADCD8C27D0E1F700D58506 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
 		B6ADCD8F27D0E2EF00D58506 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		B6B6D8A42912650E00861C8D /* StockRankRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankRow.swift; sourceTree = "<group>"; };
 		B6BB480627BF521D003D96F9 /* Hello_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB480927BF521D003D96F9 /* Hello_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIApp.swift; sourceTree = "<group>"; };
 		B6BB480B27BF521D003D96F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -274,6 +276,7 @@
 			children = (
 				B64558CF291238BA006F69E9 /* StockView.swift */,
 				B676B0F929125F6A00B9C089 /* StockModel.swift */,
+				B6B6D8A42912650E00861C8D /* StockRankRow.swift */,
 			);
 			path = Stock;
 			sourceTree = "<group>";
@@ -695,6 +698,7 @@
 				B6ABD02F27C515C30016F28A /* ObservableObjectMainView.swift in Sources */,
 				B6D149DF27D8F2F300F8DADE /* FlagViewModel.swift in Sources */,
 				B6ABD03127C515DA0016F28A /* UserSettings.swift in Sources */,
+				B6B6D8A52912650E00861C8D /* StockRankRow.swift in Sources */,
 				B62A9EB027C7BA2700A583FD /* Order.swift in Sources */,
 				B6DDD29E27D7966F0091A2AD /* FlagDetailView.swift in Sources */,
 				B6F1DCCB27CA871C00BC58EB /* OrderTotalView.swift in Sources */,
