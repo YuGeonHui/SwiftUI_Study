@@ -12,7 +12,13 @@ struct StockView: View {
     @State var list = StockModel.list
     
     var body: some View {
-        Text("Stock View")
+        
+        VStack {
+            
+            ForEach(list) { stock in
+                StockRankRow(stock: stock)
+            }
+        }
     }
 }
 
