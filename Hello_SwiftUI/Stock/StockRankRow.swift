@@ -44,6 +44,8 @@ struct StockRankRow: View {
             
             Spacer()
             
+            
+            
             Image(systemName: "heart.fill")
                 .resizable()
                 .renderingMode(.template)
