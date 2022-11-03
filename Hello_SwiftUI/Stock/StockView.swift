@@ -17,6 +17,7 @@ struct StockView: View {
             
             ForEach(list) { stock in
                 StockRankRow(stock: stock)
+                    .frame(height: 80)
             }
         }
     }
