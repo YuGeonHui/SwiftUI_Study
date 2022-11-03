@@ -18,9 +18,11 @@ struct StockView: View {
             ForEach(list) { stock in
                 StockRankRow(stock: stock)
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                    .listRowSeparator(.hidden)
                     .frame(height: 80)
             }
         }
+        .listStyle(.plain)
         .background(.blue)
     }
 }
