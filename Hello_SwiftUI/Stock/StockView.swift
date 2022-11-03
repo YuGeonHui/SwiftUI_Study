@@ -9,6 +9,8 @@ import SwiftUI
 
 struct StockView: View {
     
+    @State var list = StockModel.list
+    
     var body: some View {
         Text("Stock View")
     }
