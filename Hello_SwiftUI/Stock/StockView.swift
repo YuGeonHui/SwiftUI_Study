@@ -20,6 +20,7 @@ struct StockView: View {
                     .frame(height: 80)
             }
         }
+        .background(.blue)
     }
 }
 
