@@ -13,22 +13,35 @@ struct StockView: View {
     
     var body: some View {
         
-        VStack {
+        NavigationView {
             
-            ForEach(list) { stock in
-                StockRankRow(stock: stock)
-                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
-                    .listRowSeparator(.hidden)
-                    .frame(height: 80)
+            List($list) { stock in
+                
+                ZStack {
+                    
+                    NavigationLink {
+                        
+                        StockDetailView(stock: stock)
+                        
+                    } label: {
+                        
+                        EmptyView()
+                    }
+                    
+                    StockRankRow(stock: stock)
+                }
+                .listRowInsets(EdgeInsets())
+                .frame(height: 80)
             }
+            .listStyle(.plain)
+            .navigationTitle("Stock Rank")
         }
-        .listStyle(.plain)
-        .background(.blue)
     }
 }
 
 struct StockView_Previews: PreviewProvider {
     static var previews: some View {
         StockView()
+            .preferredColorScheme(.dark)
     }
 }
