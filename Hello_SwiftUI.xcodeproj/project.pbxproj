@@ -50,6 +50,7 @@
 		B6BB481B27BF521E003D96F9 /* Hello_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB481A27BF521E003D96F9 /* Hello_SwiftUITests.swift */; };
 		B6BB482527BF521E003D96F9 /* Hello_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */; };
 		B6BB482727BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */; };
+		B6C66B89291BECA800D76A37 /* StockRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C66B88291BECA800D76A37 /* StockRankViewModel.swift */; };
 		B6D149DF27D8F2F300F8DADE /* FlagViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D149DE27D8F2F300F8DADE /* FlagViewModel.swift */; };
 		B6D8CEC62917CA3500420E8E /* StockDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D8CEC52917CA3500420E8E /* StockDetailView.swift */; };
 		B6DDD29C27D790160091A2AD /* FlagOfTheWorldMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */; };
@@ -127,6 +128,7 @@
 		B6BB482027BF521E003D96F9 /* Hello_SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hello_SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6BB482427BF521E003D96F9 /* Hello_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		B6BB482627BF521E003D96F9 /* Hello_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B6C66B88291BECA800D76A37 /* StockRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewModel.swift; sourceTree = "<group>"; };
 		B6D149DE27D8F2F300F8DADE /* FlagViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewModel.swift; sourceTree = "<group>"; };
 		B6D8CEC52917CA3500420E8E /* StockDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailView.swift; sourceTree = "<group>"; };
 		B6DDD29B27D790160091A2AD /* FlagOfTheWorldMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagOfTheWorldMainView.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				B676B0F929125F6A00B9C089 /* StockModel.swift */,
 				B6B6D8A42912650E00861C8D /* StockRankRow.swift */,
 				B6D8CEC52917CA3500420E8E /* StockDetailView.swift */,
+				B6C66B88291BECA800D76A37 /* StockRankViewModel.swift */,
 			);
 			path = Stock;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				B644691127D27580009E4DF1 /* GestureMainView.swift in Sources */,
 				B6ABD02727C5116C0016F28A /* Episode.swift in Sources */,
 				B6ABD02A27C513F30016F28A /* Understanding_ObservableMainView.swift in Sources */,
+				B6C66B89291BECA800D76A37 /* StockRankViewModel.swift in Sources */,
 				B60DF9D927D50056006627A4 /* NavigationFromMainView.swift in Sources */,
 				B6ADCD8827CFABD900D58506 /* DishModel.swift in Sources */,
 				B6ABD02C27C514460016F28A /* FancyTimer.swift in Sources */,
